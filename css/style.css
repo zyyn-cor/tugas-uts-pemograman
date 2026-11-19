@@ -1,0 +1,91 @@
+html,
+body{
+    margin: o;
+    height: 100%;
+    background-image: url("../foto/foto2.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+margin: 0px;
+padding: 0px;
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+nav {
+    background-color: #1B262C;
+    color: aliceblue;
+}
+
+nav > .wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1,2rem;
+   
+}
+
+.menu {
+    width: 50%;
+    margin-left: auto;
+}
+
+.menu > ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+section{
+    color: white;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0,6);
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.HALO-INI-WEBSITEKU{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    display: block;
+}
+
+.hero h1{
+    font-family: 'Bebas Neus', sans;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: white;
+}
+ 
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
